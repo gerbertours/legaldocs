@@ -1,0 +1,28 @@
+{
+  "name": "template-processor",
+  "version": "1.0.0",
+  "description": "A TypeScript tool for processing mustache template placeholders",
+  "main": "template-processor.js",
+  "bin": {
+    "template-processor": "./template-processor.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node template-processor.js",
+    "dev": "ts-node template-processor.ts --template 'privacy-policy--*.md'"
+  },
+  "keywords": [
+    "template",
+    "mustache",
+    "placeholder",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

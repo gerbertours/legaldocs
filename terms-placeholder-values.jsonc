@@ -1,0 +1,47 @@
+[
+    {
+        "code": "GT",
+        "name": "Gerber Tours",
+        "email": {
+            "privacy": "privacy@gerbertours.com",
+            "support": "support@gerbertours.com"
+        },
+        "url": {
+            "site": "http://www.gerbertours.com",
+            "apps": {
+                "accounts": "https://accounts.gerbertours.com"
+            }
+        },
+        "address": "105 Maxess Road, Ste S217, Melville, NY 11747"
+    },
+    {
+        "code": "CT",
+        "name": "Contemporary Tours",
+        "email": {
+            "privacy": "privacy@contemporarytours.com",
+            "support": "support@contemporarytours.com"
+        },
+        "url": {
+            "site": "http://www.contemporarytours.com",
+            "apps": {
+                "accounts": "https://accounts.contemporarytours.com"
+            }
+        },
+        "address": "105 Maxess Road, Ste S217, Melville, NY 11747"
+    },
+    {
+        "code": "ACT",
+        "name": "American Classic Tours & Music Festivals",
+        "email": {
+            "privacy": "privacy@amclass.com",
+            "support": "support@amclass.com"
+        },
+        "url": {
+            "site": "http://www.amclass.com",
+            "apps": {
+                "accounts": "https://accounts.amclass.com"
+            }
+        },
+        "address": "85 NE Loop 410, Suite 616, San Antonio, TX 78216"
+    }
+]
