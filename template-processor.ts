@@ -165,7 +165,7 @@ class TemplateProcessor {
             .trim();
     }
 
-    public processTemplates(outputDir: string = './output', filter?: string[]): void {
+    public processTemplates(outputDir: string = './docs', filter?: string[]): void {
         // Ensure output directory exists
         if (!fs.existsSync(outputDir)) {
             fs.mkdirSync(outputDir, { recursive: true });
@@ -288,7 +288,7 @@ Examples:
 
     const templatePaths = getMultipleArgValues(args, ['--template', '-t']) || ['./privacy-policy--accounts-site.md'];
     const valuesPath = getArgValue(args, ['--values', '-v']) || './terms-placeholder-values.jsonc';
-    const outputDir = getArgValue(args, ['--output', '-o']) || './output';
+    const outputDir = getArgValue(args, ['--output', '-o']) || './docs';
     const filterArg = getArgValue(args, ['--filter', '-f']);
     const filter = filterArg ? filterArg.split(',').map(s => s.trim()) : undefined;
     const validateOnly = args.includes('--validate');

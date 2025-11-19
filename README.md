@@ -52,7 +52,7 @@ node template-processor.js --help
 
 - `--template, -t <path>`: Path to template file (default: `./privacy-policy--accounts-site.md`)
 - `--values, -v <path>`: Path to values JSON file (default: `./terms-placeholder-values.jsonc`)
-- `--output, -o <path>`: Output directory (default: `./output`)
+- `--output, -o <path>`: Output directory (default: `./docs`)
 - `--validate`: Validate placeholders without processing
 - `--help, -h`: Show help message
 
